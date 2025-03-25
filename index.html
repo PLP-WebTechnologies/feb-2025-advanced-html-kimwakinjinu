@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webdev Assignment</title>
+</head>
+<body>
+    <h1>Week 2 Assignment</h1>
+    <!-- Ordered list with roman numerals -->
+   <h2>A list of the best hotels in kenya</h2>
+        <ol type="I">
+            <li>Best Western Plus Meridian Hotel</li>
+            <li>Blue Post Hotel</li>
+            <li>Rainbow Ruiru Resort</li>
+            <li>Nokras Hotel</li>
+            <li>Verona Hotel and Conference Center</li>
+        </ol>
+    
+    <!-- Image attatched from pexels     -->
+     <img src="https://images.pexels.com/photos/29998246/pexels-photo-29998246/free-photo-of-majestic-osaka-castle-at-dusk.png" alt="Majestic Osaka castle" width="750" height="450">
+
+     <!-- table containing data -->
+      <h2>Hotel Details</h2>
+      <table border="1">
+            <tr>
+                <th>Hotel name</th>
+                <th>Location</th>
+                <th>Hotel Email</th>
+                <th>Hotel Phone</th>
+            </tr>
+            <tr>
+                <td>Best Western Plus Meridian Hotel</td>
+                <td>Nairobi</td>
+                <td>info@bestwesternplusmeridianhotel.com</td>
+                <td>0712345678</td>
+            </tr>
+            <tr>
+                <td>Blue Post Hotel</td>
+                <td>Thika</td>
+                <td>info@blueposthotel.com</td>
+                <td>0789152463</td>
+            </tr>
+            <tr>
+                <td>Rainbow Ruiru Resort</td>
+                <td>Ruiru</td>
+                <td>info@rainbowruiruresort.com</td>
+                <td>0745162378</td>
+            </tr>
+            <tr>
+                <td>Nokras Hotel</td>
+                <td>Murang`a</td>
+                <td>info@nokrashotel.com</td>
+                <td>0723456789</td>
+            </tr>
+            <tr>
+                <td>Verona Hotel and Conference Center</td>
+                <td>Ruiru</td>
+                <td>info@veronahotel.com</td>
+                <td>0789123746</td>
+            </tr>
+      </table>
+
+      <!-- registration form -->
+       <h2>Registration Form</h2>
+       <fieldset>
+        <legend>Registration form</legend>
+            <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                <br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+                <br><br>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"  minlength="8" maxlength="20" placeholder="At least 8 characters" required>
+                <br><br>
+                
+                <label for="birthdate">Birth Date:</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+                <br><br>
+
+                <label for="Gender">Gender</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                    
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+                <br><br>
+
+                <select name="Country" id="country">
+                    <option value="Select country">--Select Country--</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Uganda">Uganda</option>
+                    <option value="Tanzania">Tanzania</option>
+                    <option value="Ethiopia">Ethiopia</option>
+                    <option value="Japan">Japan</option>
+                    <option value="China">China</option>
+                </select>
+                <br><br>
+
+                <Label>Fields of interest</Label>
+                <br>
+                <input type="checkbox" name="Technology">
+                <label for="Technology">Technology</label>
+
+                <input type="checkbox" name="Art">
+                <label for="Art">Art</label>
+
+                <input type="checkbox" name="Engineering">
+                <label for="Engineering">Engineering</label>
+                <br><br>
+
+                <button type="submit">Submit</button>
+        </fieldset>
+            
+
+</body>
+</html>
